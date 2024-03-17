@@ -1,4 +1,4 @@
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/eggn885/Eggs-lua-library/main/MainUi.lua?token=GHSAT0AAAAAACPV2AFNQQ6WGD7USW45ZB5CZPWQEPA"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/eggn885/Eggs-lua-library/main/MainUi.lua"))()
 
 
 library.rank = "developer"
