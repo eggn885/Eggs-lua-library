@@ -2,7 +2,7 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/eggn8
 
 
 library.rank = "Member"
-local Wm = library:Watermark("Eggn Loader | v" .. library.version ..  " | " .. library:GetUsername() .. " | rank: " .. library.rank)
+local Wm = library:Watermark("Eggs Library | v" .. library.version ..  " | " .. library:GetUsername() .. " | rank: " .. library.rank)
 local FpsWm = Wm:AddWatermark("fps: " .. library.fps)
 coroutine.wrap(function()
     while wait(.75) do
@@ -18,18 +18,18 @@ for i = 20,0,-1 do
     local LoadingXSX = Notif:Notify("Loading Gui, please be patient.", 3, "information") -- notification, alert, error, success, information
 end 
 
-library.title = "Vigil"
+library.title = "Egg Library Loader"
 
 library:Introduction()
 wait(1)
 local Init = library:Init()
 
-local Tab1 = Init:NewTab("Example tab")
+local Tab1 = Init:NewTab("Scripts")
 
-local Section1 = Tab1:NewSection("Example Components")
+local Section1 = Tab1:NewSection("Eggs Books")
 
 
-local Label1 = Tab1:NewLabel("Example label", "left")--"left", "center", "right"
+local Label1 = Tab1:NewLabel("Scripts", "middle")--"left", "center", "right"
 
 local Toggle1 = Tab1:NewToggle("Example toggle", false, function(value)
     local vers = value and "on" or "off"
@@ -82,7 +82,7 @@ end)
 
 
 
-local FinishedLoading = Notif:Notify("Loaded xsx example", 4, "success")
+local FinishedLoading = Notif:Notify("Loaded Eggn's Library", 4, "success")
 
 -- // FUNCTION DOCS: 
 --[[
