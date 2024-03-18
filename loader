@@ -37,14 +37,14 @@ local NameAdmin = Tab1:NewButton("NameLess Admin No Byfron Kick", function()
     BookLoad = Notif:Notify("Loaded Nameless Admin", 4, "success")
 end)
 
-local Aim = Tab1:NewButton("Camlock (KeyBind Is Set To K)", function()
+local Aim = Tab1:NewButton("Camlock (KeyBind Is Set To T)", function()
     getgenv().AimPart = "HumanoidRootPart"
 	local sound = Instance.new("Sound")
 	sound.SoundId = "rbxassetid://413861777"
 	sound.Parent = game:GetService("SoundService")
 	sound:Play()
 	getgenv().AimlockKey = "t"
-	getgenv().AimRadius = 45
+	getgenv().AimRadius = 25
 	getgenv().ThirdPerson = true
 	getgenv().FirstPerson = true
 	getgenv().TeamCheck = false
