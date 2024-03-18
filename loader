@@ -37,11 +37,7 @@ local NameAdmin = Tab1:NewButton("NameLess Admin No Byfron Kick", function()
     BookLoad = Notif:Notify("Loaded Nameless Admin", 4, "success")
 end)
 
-local Keybind1 = Tab1:NewKeybind("Camlokc Key", Enum.KeyCode.T, function(key)
-    Init:AimlockKey(Enum.KeyCode[key])
-end)
-
-local Aim = Tab1:NewButton("Camlock", function()
+local Aim = Tab1:NewButton("Camlock (KeyBind Is Set To K)", function()
     getgenv().AimPart = "HumanoidRootPart"
 	local sound = Instance.new("Sound")
 	sound.SoundId = "rbxassetid://413861777"
@@ -225,7 +221,6 @@ local Aim = Tab1:NewButton("Camlock", function()
 		end
 	end
         )
-end)
 end)
 
 local Tab2 = Init:NewTab("Settings ⚙")
